@@ -1,17 +1,68 @@
-# latihan
+# 👥 Random User App
 
-Random User App
+Aplikasi Flutter sederhana yang menampilkan daftar pengguna acak menggunakan [Random User API](https://randomuser.me/).
 
-## Getting Started
+## 📱 Tampilan Aplikasi
 
-This project is a starting point for a Flutter application.
+Aplikasi menampilkan:
+- Foto profil pengguna
+- Nama lengkap
+- Email
+- Negara asal
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Fitur
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Mengambil data dari API secara real-time
+- Loading indicator saat data sedang diambil
+- Error handling jika koneksi bermasalah
+- Pull-to-refresh untuk memuat ulang data
+- Tombol refresh di AppBar
+- UI modern dengan Card dan ListTile
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Keterangan |
+|---|---|
+| Flutter | Framework UI |
+| Dart | Bahasa pemrograman |
+| HTTP Package | Mengambil data dari API |
+| StatefulWidget | Manajemen state |
+| Future & Async/Await | Pemrograman asynchronous |
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+```
+
+## 🔗 API yang Digunakan
+https://randomuser.me/api/?results=20
+
+## ⚙️ Cara Menjalankan
+
+1. Clone repository ini
+```bash
+   git clone https://github.com/AryaSaputra-Asra/random_user_app_Mobile_Programing.git
+```
+
+2. Masuk ke folder project
+```bash
+   cd random_user_app_Mobile_Programing
+```
+
+3. Install dependencies
+```bash
+   flutter pub get
+```
+
+4. Jalankan aplikasi
+```bash
+   flutter run
+```
+
+## 📁 Struktur Project
+lib/
+└── main.dart       # Semua kode utama aplikasi
